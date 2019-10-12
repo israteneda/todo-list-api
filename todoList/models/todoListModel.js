@@ -18,6 +18,7 @@ sequelize
   .catch(err => {
     console.error('Unable to connect to the database:', err);
   });
+  
 
 const Task = sequelize.define('task', {
   // attributes
@@ -54,6 +55,8 @@ Task.create({
     console.log(err);
 });
 
-Task.findAll().then(tasks => {
-  console.log("Todas las tareas:", JSON.stringify(tasks, null, 4));
-});
+// Task.findAll().then(tasks => {
+//   console.log("Todas las tareas:", JSON.stringify(tasks, null, 4));
+// });
+
+module.exports = Task;
