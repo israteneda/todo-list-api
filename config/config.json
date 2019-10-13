@@ -1,0 +1,23 @@
+{
+  "development": {
+    "dialect": "sqlite",
+    "storage": "db.development.sqlite3",
+    "define": {
+    "timestamps": true
+    }
+  },
+  "test": {
+    "dialect": "sqlite",
+    "storage": ":memory",
+    "define": {
+    "timestamps": true
+    }
+  },
+  "production": {
+    "dialect": "sqlite",
+    "storage": "db.production.sqlite3",
+    "define": {
+    "timestamps": true
+    }
+  }
+}
