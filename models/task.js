@@ -9,6 +9,12 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.INTEGER,
       defaultValue: 1,
       allowNull:false
+    },
+    description: {
+      type: DataTypes.TEXT,
+    },
+    deadline: {
+      type: DataTypes.DATE,
     }
   }, {});
   Task.associate = function(models) {

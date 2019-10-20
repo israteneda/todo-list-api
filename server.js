@@ -1,3 +1,7 @@
+// TODO: Implementar el CRUD completo de las tareas.
+// TODO: Agregar pruebas de Expressjs
+// TODO: Autenticacion de usuarios, revisar passport
+
 const express = require('express');
   app = express();
   bodyParser = require('body-parser');

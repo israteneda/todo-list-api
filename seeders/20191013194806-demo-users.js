@@ -15,12 +15,16 @@ module.exports = {
     */
    return queryInterface.bulkInsert('Tasks', 
    [{
-        task: 'Terminar página con Flutter',
+        task: 'Terminar todo con Express',
+        description: 'Realizar las tareas faltantes en todo app',
+        deadline: new Date(),
         createdAt: new Date(),
         updatedAt: new Date() 
     },
     {
         task: 'Terminar cursos de Flutter',
+        description: 'Realizar la app de IMC y todo app',
+        deadline: new Date(),
         createdAt: new Date(),
         updatedAt: new Date() 
     },
