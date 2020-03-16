@@ -29,5 +29,8 @@ benchmarks/graphs
 # enviroment variables
 .env
 
-# database
-/data
+# exclude database
+data/*
+
+# exception to the rule
+!data/.gitkeep 
